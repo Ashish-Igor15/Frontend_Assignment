@@ -1,0 +1,43 @@
+.rectangle2 {
+    position: relative;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.get {
+    font-family: Syne;
+    font-size: 135px;
+    font-weight: 800;
+    line-height: 103px;
+    letter-spacing: 0em;
+    text-align: left;
+    background-color: black;
+    width: 1159px;
+    height: 236px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border: 1px;
+    color: black;
+    z-index: 1; /* Place overlay above the background */
+}
+
+.newsletter-text {
+    position: absolute;
+    width: 337px;
+    height: 52px;
+    top: 0; /* Adjust based on your design */
+    left: 0; /* Adjust based on your design */
+    font-family: "Work Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: grey; /* or your desired text color */
+    z-index: 2; /* Place above the background and images */
+}
+

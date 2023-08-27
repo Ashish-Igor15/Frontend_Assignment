@@ -1,0 +1,23 @@
+<div class="rectangle">
+    <div class="square">
+        <div class="man">
+          <img src="assets/Images/jessica-radanavong-IchPBHFD0pw-unsplash (1).png">
+          <div class="jacket">
+          <img src="assets/Images/Oregon jacket.svg">
+          <h4>$124</h4>
+          </div>
+        </div>
+      </div>
+      <ul class="navbar-menu">
+        <li *ngFor="let item of navbarItems">
+          <a [routerLink]="[item.id]" [ngClass]="item.id">{{ item.name }}</a>
+          <ul *ngIf="item.child">
+            <li *ngFor="let childItem of item.child">
+              <a [routerLink]="[item.id, childItem.id]">{{ childItem.name }}
+              </a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      
+</div>

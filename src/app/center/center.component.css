@@ -1,0 +1,65 @@
+.rectangle{
+    width: 1440px;
+height: 749px;
+top: 41px;
+opacity: 0.5px;
+background: black;
+  } 
+
+  .man{
+    padding-left: 300px;;
+  
+  }
+
+  .jacket{
+    width: 432px;
+height: 654.9508666992188px;
+top: 133.04913330078125px;
+left: 899px;
+color: white;
+
+  }
+
+  .square{
+    width: 993px;
+    height: 354.30108642578125px;
+    top: 344.61749267578125px;
+    margin-left: 347px;
+    opacity: 0.20000000298023224px;
+    
+  background:  #F07E15;
+
+  } 
+
+  .navbar-menu {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navbar-menu li {
+    margin-right:100px;
+    margin-top: 50px;
+
+  }
+  
+  .navbar-menu a {
+    text-decoration: none;
+    color: grey;
+    font-weight: bold;
+  }
+  
+  .navbar-menu ul {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    list-style: none;
+  }
+  
+  .navbar-menu li:hover ul {
+    display: block;
+    color: black;
+  }
